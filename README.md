@@ -5,7 +5,7 @@ Sitio estático (HTML + CSS + JS puro, sin frameworks ni backend) para publicar 
 ## Estructura
 
 ```
-marketplace/
+web-selller/
 ├── index.html
 ├── css/
 │   └── style.css

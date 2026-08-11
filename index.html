@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Catálogo — Artículos de segunda mano en buen estado</title>
+<meta name="description" content="Catálogo personal de artículos usados en buen estado, en venta directa con el dueño." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#productos">Saltar al catálogo</a>
+
+<header class="site-header" id="inicio">
+  <div class="container site-header__inner">
+    <span class="logo">Segunda Mano<span class="logo__dot">.</span></span>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#productos">Catálogo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow">Catálogo personal</p>
+        <h1 id="hero-title">Objetos que ya cumplieron su etapa conmigo, listos para la tuya.</h1>
+        <p class="hero__desc">
+          Vendo artículos personales que ya no utilizo, revisados y en buen estado.
+          Sin intermediarios, sin tienda: solo tú y yo hablando directo.
+        </p>
+        <div class="hero__actions">
+          <a href="#productos" class="btn btn--primary">Ver artículos</a>
+          <a href="#contacto" class="btn btn--ghost">Contactar</a>
+        </div>
+      </div>
+
+      <div class="hero__collage" aria-hidden="true">
+        <div class="tag-card tag-card--1"><span class="tag-card__dot"></span></div>
+        <div class="tag-card tag-card--2"><span class="tag-card__dot"></span></div>
+        <div class="tag-card tag-card--3"><span class="tag-card__dot"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="productos" aria-labelledby="products-title">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Disponibles ahora</p>
+        <h2 id="products-title">Artículos en venta</h2>
+      </div>
+
+      <div class="product-grid" id="product-grid">
+        <!-- Las tarjetas se generan dinámicamente desde js/products.js -->
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto" aria-labelledby="contact-title">
+    <div class="container contact__inner">
+      <div class="section-heading section-heading--left">
+        <p class="eyebrow">Hablemos</p>
+        <h2 id="contact-title">¿Te interesa algo? Escríbeme</h2>
+        <p class="contact__desc">
+          Respondo directo, sin bots ni formularios largos. Elige el medio que prefieras.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="https://wa.me/50237919295" target="_blank" rel="noopener">
+          <span class="contact-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.5-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.5-.3Z" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.5 5.2L2 22l4.9-1.5A9.9 9.9 0 0 0 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2Zm0 18.2c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-2.9.9.9-2.8-.2-.3A8.1 8.1 0 0 1 3.8 12 8.2 8.2 0 1 1 12 20.2Z" fill="currentColor"/></svg>
+          </span>
+          <span class="contact-card__label">WhatsApp</span>
+          <span class="contact-card__value">+502 3791 9295</span>
+        </a>
+
+        <a class="contact-card" href="mailto:davelasquezcute@gmail.com">
+          <span class="contact-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11Z" stroke="currentColor" stroke-width="1.6"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="contact-card__label">Correo</span>
+          <span class="contact-card__value">davelasquezcute@gmail.com</span>
+        </a>
+
+        <a class="contact-card" href="https://www.instagram.com/d.cutt3/" target="_blank" rel="noopener">
+          <span class="contact-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+          </span>
+          <span class="contact-card__label">Instagram</span>
+          <span class="contact-card__value">@d.cutt3</span>
+        </a>
+
+        <a class="contact-card" href="tel:+50237919295">
+          <span class="contact-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.6 10.8c1.3 2.6 3.4 4.7 6 6l2-2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19.5c0 .6-.4 1-1 1C10.9 20.5 3.5 13.1 3.5 4c0-.6.4-1 1-1H7.8c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1l-2 1.3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="contact-card__label">Teléfono</span>
+          <span class="contact-card__value">+502 3791 9295</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <span>Segunda Mano<span class="logo__dot">.</span></span>
+    <p>Venta directa entre personas. Todos los artículos son de uso personal.</p>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal__close" id="modal-close" aria-label="Cerrar detalle">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <div class="modal__content" id="modal-content"></div>
+  </div>
+</div>
+
+<script src="js/products.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
