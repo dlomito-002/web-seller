@@ -7,17 +7,17 @@
 
 const PRODUCTS = [
   {
-    id: "laptop-dell",
-    nombre: "Laptop Dell",
-    precioQ: 4500,
+    id: "funda-redmi-4-watch",
+    nombre: "Fundas Protectora y Correa para Redmi Watch 4",
+    precioQ: 100,
     estado: "Buen estado",
-    descripcionCorta: "Laptop Dell ideal para trabajo y estudio.",
+    descripcionCorta: "Fundas Protectora y Correa para Redmi Watch 4",
     descripcionCompleta:
-      "Laptop Dell con buen rendimiento para tareas de oficina, navegación y estudio. Batería en buen estado, sin golpes en la pantalla. Formateada, lista para usarse.",
-    especificaciones: ["Pantalla 14\"", "Almacenamiento SSD", "Windows instalado"],
-    accesorios: ["Cargador original"],
+      "Fundas Protectora y Correa para Redmi Watch 4 en buen estado, lista para usarse.",
+    especificaciones: ["Material de alta calidad", "Diseño ajustable", "Fácil instalación"],
+    accesorios: [""],
     observaciones: "Escríbeme para conocer el detalle exacto de procesador y RAM.",
-    images: ["img/products/laptop-dell-1.jpg", "img/products/laptop-dell-2.jpg"],
+    images: ["img/products/funda-redmi-4-watch-1.jpg", "img/products/funda-redmi-4-watch-2.jpg"],
   },
   {
     id: "ps4",
